@@ -32,12 +32,21 @@ header {
 }
 
 h1 {
-    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',' Verdana', sans-serif;
+    font-size: 70px;
     text-align: center;
+    text-shadow: black ;
 }
 
 nav {
     text-align: center;
+    background-color:beige;
+    margin:15px;
+    border-radius: 15px;
+    border-spacing: 5px;
+    border-style: groove  15px;
+    padding:20px;
+    font-size:15px
 }
 
 ul {
@@ -62,6 +71,7 @@ li {
     font-style: italic;
     color:beige;
     text-align: center;
+    padding:5px;
 
 }
 
