@@ -1,0 +1,165 @@
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images3.alphacoders.com/133/1333030.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color:beige;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-image: url(https://images3.alphacoders.com/133/1333030.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+.hero {
+    background-image: url(https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_640.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    font-size:inherit;
+    color: white;
+    font-style: italic;
+    color:beige;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a.hero-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Destinations section styles */
+
+.destinations {
+    padding: 20px;
+}
+
+.destination {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.destination img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px;
+}
+
+.destination h3 {
+    margin-left: 20px;
+}
+
+.destination p {
+    margin-left: 20px;
+    font-size: 14px;
+    color: beige;
+}
+
+.destination a {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+.contact {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    color: beige;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
